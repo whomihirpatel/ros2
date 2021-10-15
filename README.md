@@ -23,11 +23,11 @@
     echo 'source /opt/ros2/galactic/setup.zsh' >> ~/.zshrc
 
     ```
-    note: Make sure ROS-Noetic (or any other ROS1  version) is not sourced in the terminal during build (This gives error in ROS1_bridge build).
-    (
-    (Total Packages: 331
-    Extra packages included by me: ros/xacro
-    )
+    
+    - Total Packages: 331
+    - Extra packages included by me: ros/xacro
+    - known issues: error installing ROS1_bridge. [Refer this](https://github.com/ros2/ros1_bridge/issues/313)
+    
 
 ## Make Dependencies:
 

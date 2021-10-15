@@ -318,7 +318,7 @@ repositories:
   ros2/ros1_bridge:
     type: git
     url: https://github.com/ros2/ros1_bridge.git
-    version: 08cf32c
+    version: master
   ros2/ros2cli:
     type: git
     url: https://github.com/ros2/ros2cli.git
