@@ -18,14 +18,14 @@
     sudo mkdir /opt/ros2/galactic
     sudo chown $USER /opt/ros2/galactic
 
-    colcon build --merge-install --install-base /opt/ros2/galactic
+    colcon build --merge-install --packages-skip-build-finished --install-base /opt/ros2/galactic
 
     echo 'source /opt/ros2/galactic/setup.zsh' >> ~/.zshrc
 
     ```
-    
+    [note: do not source any other ros distro or package in terminal where you compile above packages]
     - Total Packages: 331
-    - Extra packages included by me: ros/xacro
+    - Extra packages included by me: ros/xacro, ros/diagnostics
     - known issues: error installing ROS1_bridge. [Refer this](https://github.com/ros2/ros1_bridge/issues/313)
     
 
